@@ -354,7 +354,74 @@
 ss
 <hr>
 <h2 align="center">Css for lists</h2><br/>
+<h3>1.Make bullet a square</h3><br/>
 
+ul.b { </br>
+    &nbsp;  &nbsp;  &nbsp;list-style-type: square;</br>
+} </br>
+
+<h3>2.Make bullet an image named "my-bullet.png"</h3><br/>
+
+ul.b {  </br> 
+    &nbsp;  &nbsp;  &nbsp;list-style-image: url ("my-bullet.png"); </br>
+} </br>
+
+<h3>3.Make bullet an uppercase roman letter"</h3><br/>
+
+&lt;ol style ="I"&gt; </br>
+
+<h3>4.Set bullet position to be inside the list item's text flow</h3><br/>
+
+ul.b { </br>
+    &nbsp;  &nbsp;  &nbsp;list-style-position: inside; </br>
+} </br>
+
+<h3>5.Set bullet position to be outside the list item's text flow</h3><br/>
+
+ul.b { </br>
+    &nbsp;  &nbsp;  &nbsp;list-style-position: outside; </br>
+} </br>
+
+<h2 align="center">HTML for Tables</h2><br/>
+<h3>1.Start tags for</h3><br/>
+<h4><div style="text-indent:10px;">-> a table</div></h4><br/>
+<div style="text-indent:10px;">&lt;table&gt;</div><br/>
+<h4><div style="text-indent:10px;">-> a table row</div></h4><br/>
+<div style="text-indent:10px;">&lt;tr&gt;</div><br/>
+<h4><div style="text-indent:10px;">-> a table header</div></h4><br/>
+<div style="text-indent:10px;">&lt;thead&gt;</div><br/>
+<h4><div style="text-indent:10px;">-> a table header cell</div></h4><br/>
+<div style="text-indent:10px;">&lt;th&gt;</div><br/>
+<h4><div style="text-indent:10px;">-> a table body</div></h4><br/>
+<div style="text-indent:10px;">&lt;tbody&gt;</div><br/>
+<h4><div style="text-indent:10px;">-> a table cell</div></h4><br/>
+<div style="text-indent:10px;">&lt;td&gt;</div><br/>
+<h4><div style="text-indent:10px;">-> a table footer</div></h4><br/>
+<div style="text-indent:10px;">&lt;tf&gt;</div><br/>
+<h4><div style="text-indent:10px;">-> a table footer cell</div></h4><br/>
+<div style="text-indent:10px;">&lt;tfoot&gt;</div><br/>
+
+<h2 align="center">Css for Tables</h2><br/>
+
+<h3>1.Black dotted border of 1px width</h3><br/>
+
+table, th, td { </br>
+    &nbsp;  &nbsp;  &nbsp;border: 1px dotted; </br>
+} </br>
+
+<h3>2.Solid border of 1 px width having a red color and rounded corners</h3><br/>
+
+table, th, td { </br>
+    &nbsp;  &nbsp;  &nbsp;border: 1px solid; </br>
+    &nbsp;  &nbsp;  &nbsp;border-color: red; </br>
+    &nbsp;  &nbsp;  &nbsp;border-radius: 25px; </br>
+} </br>
+
+<h3>3.Merge the borders of table cells so that they appear as one line</h3><br/>
+
+table { </br>
+    &nbsp;  &nbsp;  &nbsp;border-collapse: collapse; </br>
+} </br>
 
   </body>
 </html>
